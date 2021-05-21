@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cálculos</title>
+  </head>
+  <body>
+    <header>
+      <div class="container green">
+        <h3 class="p-5">Uso de Variables y Operadores Aritméticos</h3>
+      </div>
+    </header>
+    <div class="container p-5">
+      <br />
+      <p>
+        1. Diagrama de flujo para las operaciones matemáticas: Suma, Resta,
+        División, Multiplicación y Módulo de un número, partiendo de dos números
+        ingresados por el usuario.
+      </p>
+      <div class="diagramas borde py-3">
+        <div class="diagrama"></div>
+      </div>
+
+      <div class="operaciones borde py-3">
+        <p>
+          2. Ingrese dos números diferentes y mayores a cero. Utilice el
+          selector para calcular lo siguiente: Suma, Resta, División,
+          Multiplicación o Módulo.
+        </p>
+
+        <select name="select2" id="select2">
+          <option value="suma">Suma</option>
+          <option value="resta">Resta</option>
+          <option value="multiplicacion">Multiplicación</option>
+          <option value="division">División</option>
+          <option value="modulo">Módulo</option>
+        </select>
+
+        <button class="btn btn-success" id="btn-ej2">Ejecutar</button>
+
+        <p class="result2 pt-3 m-0">Resultado:</p>
+      </div>
+
+      <div class="programa-temperatura borde py-3">
+        <p>
+          3. Ingrese una temperatura en grados Celsius y obtenga su equivalente
+          en grados Kelvin y Fahrenheit.
+        </p>
+
+        <button class="btn btn-success" id="btn-ej3">Ejecutar</button>
+        <p class="result3 pt-3 m-0">Resultado:</p>
+      </div>
+
+      <div class="dias-anos borde py-3">
+        <p>
+          4. Ingrese una cantidad de días para ver su equivalente en Años,
+          Semanas y Días.
+        </p>
+        <button class="btn btn-success" id="btn-ej4">Ejecutar</button>
+        <p class="result4 pt-3 m-0">Resultado:</p>
+      </div>
+
+      <div class="cinco-numeros borde py-3">
+        <p>
+          5. Ingrese 5 números y obtenga la suma de todos los números y el
+          promedio de los 5 números ingresados.
+        </p>
+
+        <button class="btn btn-success" id="btn-ej5">Ejecutar</button>
+        <p class="result5 pt-3 m-0">Resultado:</p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

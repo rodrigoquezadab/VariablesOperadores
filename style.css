@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: grey;
+}
+
+.container {
+  background-color: white;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.borde {
+  border-bottom: black 1px solid;
+}
+
+.diagrama {
+  background-image: url(/img/operaciones.JPG);
+  height: 400px;
+  width: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
