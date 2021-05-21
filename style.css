@@ -21,7 +21,7 @@ body {
 }
 
 .diagrama {
-  background-image: url(../../img/operaciones.JPG);
+  background-image: url(../img/operaciones.JPG);
   height: 400px;
   width: auto;
   background-size: contain;
